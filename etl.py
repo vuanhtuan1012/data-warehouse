@@ -13,7 +13,7 @@ def load_staging_tables(cur, conn):
         conn.commit()
 
         end = time()
-        print("execution time = {} seconds\n".format(round(end - start, 2)))
+        print("execution time = %s seconds\n" % round(end - start, 2))
 
 
 def insert_tables(cur, conn):
@@ -25,7 +25,7 @@ def insert_tables(cur, conn):
         conn.commit()
 
         end = time()
-        print("execution time = {} seconds".format(round(end - start, 2)))
+        print("execution time = %s seconds" % round(end - start, 2))
 
 
 def main():

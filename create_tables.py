@@ -13,7 +13,7 @@ def drop_tables(cur, conn):
         conn.commit()
 
         end = time()
-        print("execution time = {} seconds".format(round(end - start, 2)))
+        print("execution time = %s seconds" % round(end - start, 2))
 
 
 def create_tables(cur, conn):
@@ -25,7 +25,7 @@ def create_tables(cur, conn):
         conn.commit()
 
         end = time()
-        print("execution time = {} seconds".format(round(end - start, 2)))
+        print("execution time = %s seconds" % round(end - start, 2))
 
 
 def main():
