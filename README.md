@@ -5,7 +5,7 @@
 1. [Introduction](#1-introduction)
 2. [Dataset](#2-dataset)
 3. [Repo Structure](3-repo-structure)
-4. [Designing Database](#4-create-tables)
+4. [Create Tables](#4-create-tables)
 5. [Load Data](#5-load-data)
 6. [Analyses](#6-analyses)
 
